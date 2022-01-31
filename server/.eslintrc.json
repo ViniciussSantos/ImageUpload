@@ -16,21 +16,14 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "indent": [
+        "prettier/prettier": [
             "error",
-            4
-        ],
-        "linebreak-style": [
-            "error",
-            "windows"
-        ],
-        "quotes": [
-            "error",
-            "double"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ]
+            {
+              "printWidth": 120
+            },
+            {
+              "usePrettierrc": true
+            }
+          ]
     }
 }
